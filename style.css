@@ -1,0 +1,224 @@
+@media screen and (max-width: 893px) {
+  html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+  }
+  .box {
+    margin: auto;
+    width: 80%;
+  }
+  #title {
+    width: 100%;
+  }
+  .buttons {
+    margin: 1.2rem 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .buttons1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .btn1 {
+    margin: 0.3rem auto;
+  }
+  .btn2 {
+    margin: auto;
+    width: 100%;
+  }
+  .status {
+    width: 15%;
+    padding: 0.8rem;
+    text-align: center;
+    display: none;
+  }
+  .sNo {
+    width: 5%;
+    padding: 0.8rem 0rem 0.8rem 0.2rem;
+    text-align: center;
+  }
+  .title {
+    width: 35%;
+    padding: 0.8rem;
+    text-align: center;
+    word-wrap: break-word;
+  }
+
+  .time {
+    width: 20%;
+    padding: 0.8rem;
+    text-align: center;
+  }
+  
+  .actions {
+    width: 40%;
+    padding: 0.8rem;
+    text-align: center;
+  }
+  .btnDel {
+    margin-bottom: 0.4rem;
+    padding: 0.5rem 1.2rem;
+    background: rgb(12, 12, 232);
+    color: white;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    font-family: "Montserrat", serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  .btnDel:hover {
+      background: rgb(0, 0, 146);
+  }
+}
+@media screen and (min-width: 893px) {
+  html {
+    font-size: 20px;
+    scroll-behavior: smooth;
+  }
+  .box {
+    margin: auto;
+    width: 50%;
+  }
+  #title {
+    width: 80%;
+  }
+  .buttons {
+    margin: 1.2rem 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .buttons1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .btn2 {
+    width: 35%;
+  }
+  .status {
+    width: 15%;
+    padding: 0.8rem;
+    text-align: center;
+  }
+  .sNo {
+    width: 5%;
+    padding: 0.8rem;
+    text-align: center;
+  }
+  .title {
+    width: 25%;
+    padding: 0.8rem;
+    text-align: center;
+    word-wrap: break-word;
+  }
+  .time {
+    width: 20%;
+    padding: 0.8rem;
+    text-align: center;
+  }
+  
+  .actions {
+    width: 35%;
+    padding: 0.8rem;
+    text-align: center;
+  }
+  .stat {
+    display: none;
+  }
+  .btnDel {
+    padding: 0.5rem 1.2rem;
+    background: rgb(12, 12, 232);
+    color: white;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    font-family: "Montserrat", serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+  }
+  .btnDel:hover {
+      background: rgb(0, 0, 146);
+  }
+}
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #cc2b5e;
+  background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);
+  background: linear-gradient(90deg, #753a88, #cc2b5e);
+}
+h1 {
+  font-family: "Merriweather", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: auto;
+}
+#tableContainer {
+  background-color: white;
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  padding: 0.4rem;
+  border: 0.1rem solid black;
+  border-radius: 0.4rem;
+  font-size: 1.2rem;
+}
+.btn {
+  padding: 0.6rem 2rem;
+  background: rgb(70, 129, 152);
+  color: white;
+  border-radius: 0.6rem;
+  cursor: pointer;
+  font-family: "Montserrat", serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.btn:hover {
+  background: rgb(39, 109, 137);
+}
+#clearList {
+  padding: 0.6rem 2.2rem;
+}
+.btnStatus {
+    padding: 0.5rem 0.6rem;
+    background: green;
+    color: white;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    font-family: "Montserrat", serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+.head {
+  background-color: gray;
+  font-weight: 600;
+}
+th {
+  padding: 0.8rem;
+}
+td {
+    text-align: center;
+}
+.statusTxt {
+    color: red;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+}
